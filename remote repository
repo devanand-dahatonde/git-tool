@@ -1,3 +1,5 @@
+************ REMOTE CONTAIN ACCESS ***********************
+
 apt update -y
 
 apt-get install git
@@ -9,3 +11,33 @@ git remote add origin REPOSITORY LINK PASTE
 git remote -v  = या कमांडचा वापर आपल्या लोकल रिपॉझिटरीशी जोडलेल्या रिमोट सर्व्हरच्या (उदा. GitHub, GitLab) लिंक्स पाहण्यासाठी केला जातो
 
 git pull origin main  = data update
+
+
+**************** REMOTE REPOSITORY TO DATA EDIT  ***********************
+
+adduser deva
+
+cd /home/deva AND  su - deva
+
+git clone REPOSITORY LINK PASTE
+
+vim FILEEDIT 
+
+git add FILEEDIT
+
+git config --global user.name deva
+
+git config --global user.email deva@gmail.com
+
+git commit -m "COMMENT ADDED TO" = commit add
+
+git log --oneline  =  shows the history of commits in a repository
+
+git push origin main --set-upstream   = remote repository updated
+
+git pull origin main = data updated
+
+
+
+
+
