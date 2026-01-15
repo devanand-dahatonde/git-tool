@@ -1,0 +1,39 @@
+<h1> GIT INSTALL COMMAND
+
+************* WORKING DIRECTORY ****************
+
+apt update -y
+
+apt-get install git 
+
+git init
+
+git clone  = repository access
+
+******** STAGGING AREA ******************
+
+git status  = staged and unstaged file show
+
+git add FILENAME  = file added
+
+****************LOCAL REPOSITORY*********************
+
+git commit -m "added in the comment"
+
+******** REMOTE REPOSITORY****************************
+
+git push origin main --set-upstream
+
+git log --oneline  = logs and commit shows
+
+
+
+
+
+
+
+
+
+
+
+
