@@ -1,0 +1,19 @@
+git branch BRANCHNAME  =  create new branch
+
+git checkout BRANCHNAME  =  switch to branch
+
+git branch  = check show branch
+
+git push origin BRANCHNAME  = new branch github remote to push
+
+git branch -d BRANCHNAME  = local branch delete
+
+git push origin --delete BRANCHNAME  = remote branch delete
+
+git checkout -b NEWBRANCH  =  create branch and to switch
+
+git diff BRANCH1 BRANCH2 =  या कमांडचा वापर दोन वेगवेगळ्या ब्रांचेस (Branches) मधील फरक पाहण्यासाठी केला जातो
+
+git branch -m BRANCHNAME  =  edit to branch name 
+
+git branch -m OLDNAME NEW NAME 
