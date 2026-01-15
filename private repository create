@@ -1,0 +1,34 @@
+<h1> private repository create command 
+
+apt update -y
+apt-get install git 
+apt init
+apt clone LINKCODE [ssh link copy]
+
+<h1> ssh-keygen  = key generation COMMAND
+
+<h1> cat id_pub
+
+<h1> seting graphical (github account in)
+
+1) setings
+2) SSH and GPG keys
+3) New ssh keys in
+4) title
+5) key type
+6) key  = public key paste
+7) add ssh key
+
+********* COMMAND ****************
+mv oldname id_rsa
+
+ ********* command in private in repository clone in ssh
+
+apt update -y
+
+apt-get install git
+
+apt init
+
+apt clone {SSH LINK CODE} 
+
