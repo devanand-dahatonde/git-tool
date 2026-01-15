@@ -1,0 +1,46 @@
+apt update -y
+
+apt-get install git
+
+git version  = version check
+
+git init 
+
+git clone  = repository access
+
+git branch  = branch check
+
+git branch dev  = create branch
+
+git branch test  = create branch
+
+git checkout dev = switch branch
+
+vim newfile
+
+git add newfile
+
+git commit -m "comment added"
+
+******************************
+
+git checkout main = switch branch
+
+git merge dev  = main to merge dev branch
+
+git add filename
+
+git commit -m "comment in added"
+
+git push origin main = dev branch in file to main branch in push
+
+git branch = branch check
+
+
+
+
+
+
+
+
+
