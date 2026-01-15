@@ -1,0 +1,11 @@
+apt update -y
+
+apt-get install git
+
+git init
+
+git remote add origin REPOSITORY LINK PASTE
+
+git remote -v  = या कमांडचा वापर आपल्या लोकल रिपॉझिटरीशी जोडलेल्या रिमोट सर्व्हरच्या (उदा. GitHub, GitLab) लिंक्स पाहण्यासाठी केला जातो
+
+git pull origin main  = data update
